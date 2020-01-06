@@ -1,2 +1,2 @@
-# droplett.me
-personal clown site
+# benjaminxu.me
+personal site
