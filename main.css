@@ -38,7 +38,7 @@ a {
   justify-content: center;
 }
 
-.icon {
+.icon-text {
   font-family: 'Lato', sans-serif;
   min-height: 100%;
   display: flex;
@@ -47,8 +47,10 @@ a {
   line-height: 1.5;
 }
 
-.gallery-item {
+.icon {
   margin: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 .gallery-item .thumbnail {
