@@ -62,13 +62,6 @@ a {
   transform: translate(-50%, -50%)
 }
 
-.gallery-item {
-  margin: 20px;
-}
-
-.gallery-item .thumbnail {
-  border: 5px solid #fff;
-}
 
 /* FOOTER NAVIGATION */
 
