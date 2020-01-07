@@ -54,8 +54,7 @@ a {
   line-height: 1.5;
   color: red;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .icon-text {
