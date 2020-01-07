@@ -41,10 +41,14 @@ a {
 .icon{
   position: relative;
   text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 40px;
 }
 
 .icon-image{
-
+  width: 200px;
+  height: 200px;
 }
 
 .icon-txt{
