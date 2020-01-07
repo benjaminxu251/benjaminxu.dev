@@ -41,6 +41,7 @@ a {
 .icon{
   position: relative;
   text-align: center;
+  size: 50%;
 }
 
 .icon-image{
@@ -55,6 +56,9 @@ a {
   font-weight: 300;
   line-height: 1.5;
   color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .icon-text {
