@@ -35,3 +35,8 @@ a {
   font-weight: 300;
   margin: 50px;
 }
+
+.images{
+  align-items: center;
+  margin: 40px;
+}
