@@ -46,15 +46,11 @@ a {
   margin: 40px;
 }
 
-.icon-image{
-  size: 35%;
-}
-
 .icon-text {
   font-family: 'Lato', sans-serif;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-20%, -20%)
 }
 
 
