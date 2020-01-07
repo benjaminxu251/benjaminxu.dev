@@ -21,7 +21,7 @@ a {
 
 .page-title {
   text-align: center;
-  font-weight: 150;
+  font-weight: 300;
 }
 
 .page-description {
@@ -29,4 +29,9 @@ a {
   margin: 2px;
   text-align: center;
   padding: 30px;
+}
+
+.description{
+  font-weight: 300;
+  margin: 40px;
 }
