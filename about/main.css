@@ -37,6 +37,8 @@ a {
 }
 
 .images{
-  align-items: center;
-  margin: 40px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
