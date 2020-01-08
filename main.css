@@ -22,7 +22,6 @@ a {
 .page-title {
   text-align: center;
   font-weight: 300;
-  font-size: large;
 }
 
 .page-description {
@@ -38,7 +37,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: medium;
 }
 
 .icon{
