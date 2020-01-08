@@ -40,3 +40,14 @@ a {
   font-size: 20px;
   justify-content: center;
 }
+
+.images{
+  margin: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item{
+  text-align: center;
+}
