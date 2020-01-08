@@ -8,14 +8,14 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-image: url('https://www.exsilio.com/wp-content/uploads/2014/03/blurred-wallpaper-background-7591-7884-hd-wallpapers.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;
 }
 
 a {
-  color: #204156;
+  color: black;
   text-decoration: none;
 }
 
