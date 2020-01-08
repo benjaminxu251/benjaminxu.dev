@@ -31,7 +31,7 @@ a {
   margin: 2px;
   text-align: center;
   padding: 30px;
-  font-weight: 150;
+  font-weight: 300;
   font-size: 28px;
 }
 
@@ -43,10 +43,10 @@ a {
 }
 
 .item{
-  width: 60px;
-  height: 45px;
-  padding: 5px;
-  margin: 20px;
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  margin: 40px;
   border: 3px solid black;
   text-align: center;
   font-family: 'Lato', sans-serif;
