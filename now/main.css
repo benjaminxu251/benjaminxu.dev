@@ -23,6 +23,7 @@ a {
 .page-title {
   text-align: center;
   font-weight: 150;
+  font-size: large;
 }
 
 .page-description {
@@ -36,6 +37,7 @@ a {
   text-align: center;
   font-weight: 300;
   margin: 10px 50px;
+  font-size: medium;
 }
 
 .images{

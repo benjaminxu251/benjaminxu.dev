@@ -22,10 +22,10 @@ a {
 .page-title {
   text-align: center;
   font-weight: 300;
+  font-size: large;
 }
 
 .page-description {
-  font: 'Lato'sans-serif;
   border: 1px solid #000;
   margin: 2px;
   text-align: center;
