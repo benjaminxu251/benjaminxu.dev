@@ -25,6 +25,7 @@ a {
 }
 
 .page-description {
+  font: 'Lato'sans-serif;
   border: 1px solid #000;
   margin: 2px;
   text-align: center;
@@ -37,5 +38,7 @@ a {
 }
 
 .image{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
