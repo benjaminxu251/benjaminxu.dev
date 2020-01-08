@@ -8,7 +8,7 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://i2.wp.com/static.web-backgrounds.net/uploads/2011/04/preview16.jpg?resize=594%2C274');
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;

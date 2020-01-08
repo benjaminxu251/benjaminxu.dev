@@ -8,7 +8,7 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-color: white;
   background-position: center top;
   background-size: cover;
   margin: 0;
