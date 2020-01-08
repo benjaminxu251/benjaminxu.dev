@@ -22,7 +22,7 @@ a {
 .page-title {
   text-align: center;
   font-weight: 300;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .page-description {
@@ -31,7 +31,7 @@ a {
   text-align: center;
   padding: 30px;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .gallery {
@@ -52,6 +52,7 @@ a {
 .icon-text {
   font-family: 'Lato', sans-serif;
   text-align: center;
+  font-size: 16px;
 }
 
 
