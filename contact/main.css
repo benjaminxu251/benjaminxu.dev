@@ -42,7 +42,7 @@ a {
 }
 
 .images{
-  margin: 60px;
+  margin: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
