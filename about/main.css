@@ -31,10 +31,11 @@ a {
   text-align: center;
   padding: 30px;
   font-size: 28px;
+  font-weight: 300;
 }
 
 .description{
-  font-weight: 300;
+  font-weight: 350;
   margin: 10px 50px;
   font-size: 20px;
 }
@@ -44,4 +45,5 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 30px;
 }
