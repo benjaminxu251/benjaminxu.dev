@@ -46,4 +46,6 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px;
+  width: 250px;
+  height: 250px;
 }
