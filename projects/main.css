@@ -21,7 +21,7 @@ a {
 
 .page-title {
   text-align: center;
-  font-weight: 150;
+  font-weight: 300;
 }
 
 .page-description {
@@ -30,11 +30,13 @@ a {
   margin: 2px;
   text-align: center;
   padding: 30px;
+  font-weight: 300;
 }
 
 .description{
   color: black;
-  margin: 5px, 50px;
+  margin: 30px, 50px;
+  font-weight: 300;
 }
 
 .image{
