@@ -8,20 +8,21 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-color: white;
   background-position: center top;
   background-size: cover;
   margin: 0;
 }
 
 a {
-  color: #204156;
+  color: black;
   text-decoration: none;
 }
 
 .page-title {
   text-align: center;
-  font-weight: 150;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .page-description {
@@ -29,6 +30,8 @@ a {
   margin: 2px;
   text-align: center;
   padding: 30px;
+  font-weight: 300;
+  font-size: 28px;
 }
 
 .gallery {
@@ -36,6 +39,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.category{
+  border-color: black;
+  background-color: white;
+  text-align: center;
 }
 
 .icon{
@@ -49,6 +58,7 @@ a {
 .icon-text {
   font-family: 'Lato', sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 
