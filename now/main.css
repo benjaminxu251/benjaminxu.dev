@@ -4,11 +4,12 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  color: white;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-image: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3927151/910/569/m2/fpnw/wm1/bdhnoees2n5vye8ibggpzcv0ekyylyleczi9jyyuqzqftkcf8lxxfs4vg6wikbwl-.jpg?1517324506&s=a4fb14a043e823cce7b4cec0c8fbb52d');
   background-position: center top;
   background-size: cover;
   margin: 0;
@@ -31,62 +32,14 @@ a {
   padding: 30px;
 }
 
-.gallery {
-  margin-top: 20px;
+.description{
+  font-weight: 300;
+  margin: 10px 50px;
+}
+
+.images{
+  margin: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.icon{
-  position: relative;
-  text-align: center;
-  width: 200px;
-  height: 200px;
-  margin: 40px;
-}
-
-.icon-text {
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-}
-
-
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
-}
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
- float: right;
-}
-
-.contact-btn a {
-  cursor: pointer;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-}
-
-.contact-btn a:active {
-  top: 2px;
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
