@@ -31,62 +31,11 @@ a {
   padding: 30px;
 }
 
-.gallery {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
+.description{
+  color: black;
+  margin: 5px, 50px;
+}
+
+.image{
   justify-content: center;
 }
-
-.icon{
-  position: relative;
-  text-align: center;
-  width: 200px;
-  height: 200px;
-  margin: 40px;
-}
-
-.icon-text {
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-}
-
-
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
-}
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
- float: right;
-}
-
-.contact-btn a {
-  cursor: pointer;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-}
-
-.contact-btn a:active {
-  top: 2px;
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
