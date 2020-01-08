@@ -8,7 +8,7 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://i.pinimg.com/originals/11/1a/f2/111af29fe13fc6828369bc7ca1d108fb.jpg');
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;
@@ -39,6 +39,7 @@ a {
   margin: 10px 50px;
   font-size: 20px;
   justify-content: center;
+  text-align: center;
 }
 
 .images{
