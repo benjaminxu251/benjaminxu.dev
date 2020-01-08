@@ -22,7 +22,7 @@ a {
 .page-title {
   text-align: center;
   font-weight: 300;
-  font-size: xx-large;
+  font-size: 40px;
 }
 
 .page-description {
@@ -30,7 +30,7 @@ a {
   margin: 2px;
   text-align: center;
   padding: 30px;
-  font-weight: 300;
+  font-size: 28px;
 }
 
 .description{
