@@ -39,9 +39,16 @@ a {
   color: black;
   margin: 30px, 50px;
   font-weight: 300;
-  font-size: 22px;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+.item-title{
+  font-size: 20px;
+}
+
+.item-description{
+  font-size: 16px;
 }
 
 .image{
