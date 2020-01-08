@@ -35,6 +35,13 @@ a {
   font-size: 28px;
 }
 
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .item{
   width: 60px;
   height: 45px;
