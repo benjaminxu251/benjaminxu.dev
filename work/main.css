@@ -8,20 +8,21 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-color: white;
   background-position: center top;
   background-size: cover;
   margin: 0;
 }
 
 a {
-  color: #204156;
+  color: black;
   text-decoration: none;
 }
 
 .page-title {
   text-align: center;
-  font-weight: 150;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .page-description {
@@ -29,6 +30,8 @@ a {
   margin: 2px;
   text-align: center;
   padding: 30px;
+  font-weight: 300;
+  font-size: 28px;
 }
 
 .gallery {
@@ -38,55 +41,21 @@ a {
   justify-content: center;
 }
 
-.icon{
+.item{
   position: relative;
   text-align: center;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   margin: 40px;
-}
-
-.icon-text {
-  font-family: 'Lato', sans-serif;
   text-align: center;
+  border: 3px black;
+  background-color: white;
 }
 
-
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
+.icon-title{
+  font-size: 26px;
 }
 
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
+.icon-description{
+  font-size: 18px;
 }
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
- float: right;
-}
-
-.contact-btn a {
-  cursor: pointer;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-}
-
-.contact-btn a:active {
-  top: 2px;
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
