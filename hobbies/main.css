@@ -47,6 +47,14 @@ a {
   text-align: center;
 }
 
+.image{
+  position: relative;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+}
+
 .icon{
   position: relative;
   text-align: center;
