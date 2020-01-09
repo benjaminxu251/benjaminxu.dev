@@ -40,11 +40,18 @@ a {
   font-size: 20px;
 }
 
-.images{
-  height: 240px;
-  width: 240px;
-  margin: 30px;
+.gallery{
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.image{
+  position: relative;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+}
+
