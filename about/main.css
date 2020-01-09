@@ -41,6 +41,8 @@ a {
 }
 
 .images{
+  height: 250px;
+  width: 250px;
   margin: 60px;
   display: flex;
   flex-wrap: wrap;
