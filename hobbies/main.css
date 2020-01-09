@@ -45,6 +45,9 @@ a {
   border-color: black;
   background-color: white;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image{
@@ -68,43 +71,3 @@ a {
   text-align: center;
   font-size: 20px;
 }
-
-
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
-}
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
- float: right;
-}
-
-.contact-btn a {
-  cursor: pointer;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-}
-
-.contact-btn a:active {
-  top: 2px;
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
