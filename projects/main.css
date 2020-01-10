@@ -51,6 +51,8 @@ a {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: center;
+  border-width: 1px;
+  border-color: black;
   background-image: url('https://image.freepik.com/free-vector/watercolor-texture-with-soft-colors_1020-998.jpg');
 }
 
