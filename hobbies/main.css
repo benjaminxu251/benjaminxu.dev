@@ -52,6 +52,7 @@ a {
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
+  margin: 50px;
 }
 
 .category-title{
@@ -59,10 +60,7 @@ a {
 }
 
 .category-image{
-  align-content: center;
-  size: unset;
-  max-width: 240px;
-  max-height: 240px;
+  text-align: center;
 }
 
 .category-description{
