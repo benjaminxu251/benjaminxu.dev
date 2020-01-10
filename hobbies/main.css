@@ -41,15 +41,14 @@ a {
   justify-content: center;
 }
 
-.icon{
-  position: relative;
+.category{
+  border-color: black;
+  border-width: 3px;
+  background-color: white;
   text-align: center;
-  width: 200px;
-  height: 200px;
-  margin: 30px;
-}
-
-.icon-text {
+  display:inline;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
