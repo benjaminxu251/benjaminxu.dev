@@ -8,7 +8,7 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://previews.123rf.com/images/pattanwit/pattanwit1603/pattanwit160300037/101601585-crumpled-paper-paper-background.jpg');
+  background-image: url('https://image.freepik.com/free-photo/blue-with-vignette-marble-texture-background-with-copy-space_23-2148327728.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;
@@ -43,7 +43,6 @@ a {
 }
 
 .category{
-  background-color: white;
   text-align: center;
   display:inline;
   flex-wrap: wrap;
@@ -53,7 +52,7 @@ a {
   font-size: 20px;
   margin: 30px;
   padding: 16px;
-  border-color: black;
+  border-color: rgb(140, 140, 230)
   border-width: 3px;
   border-style: solid;
 }
@@ -73,4 +72,16 @@ a {
 .space-1{
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+.watercolor-1{
+  background-image: url('https://image.freepik.com/free-vector/watercolor-texture-background_87374-48.jpg');
+}
+
+.watercolor-2{
+  background-image: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1657736/910/607/m1/fpnw/wm0/a-11-.png?1473885956&s=8748e3e712c8461bf3cd92fe42483bf3');
+}
+
+.watercolor-3{
+  background-image: url('https://previews.123rf.com/images/nubephoto/nubephoto1801/nubephoto180100019/93706255-soft-blue-watercolor-texture-background-hand-painted.jpg');
 }
