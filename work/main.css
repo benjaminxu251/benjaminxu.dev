@@ -48,8 +48,6 @@ a {
   height: 500px;
   margin: 40px;
   text-align: center;
-  border: 3px black;
-  background-color: white;
 }
 
 .icon-title{
@@ -58,4 +56,8 @@ a {
 
 .icon-description{
   font-size: 18px;
+}
+
+.icon-background{
+  background-image: url('https://image.freepik.com/free-vector/watercolor-texture-with-soft-colors_1020-998.jpg');
 }
