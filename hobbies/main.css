@@ -36,6 +36,7 @@ a {
 
 .gallery {
   margin-top: 20px;
+  margin-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,7 +51,7 @@ a {
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
-  margin: 30px, 30px, 60px;
+  margin: 30px;
   padding: 16px;
   border-color: black;
   border-width: 3px;
@@ -69,6 +70,7 @@ a {
   font-size: 18px;
 }
 
-.space-top{
-  margin-top: 30px;
+.space-1{
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
