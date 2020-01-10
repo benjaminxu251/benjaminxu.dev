@@ -41,14 +41,15 @@ a {
   justify-content: center;
 }
 
-.category{
-  border-color: black;
-  border-width: 3px;
-  background-color: white;
+.icon{
+  position: relative;
   text-align: center;
-  display:inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+.icon-text {
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
