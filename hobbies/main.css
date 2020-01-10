@@ -8,7 +8,7 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://image.freepik.com/free-photo/blue-with-vignette-marble-texture-background-with-copy-space_23-2148327728.jpg');
+  background-image: url("https://i.imgur.com/FdYMi9J.jpg");
   background-position: center top;
   background-size: cover;
   margin: 0;
@@ -75,7 +75,7 @@ a {
 }
 
 .watercolor-1{
-  background-image: url('https://image.freepik.com/free-vector/watercolor-texture-background_87374-48.jpg');
+  background-image: url('https://image.freepik.com/free-vector/watercolor-texture-with-soft-colors_1020-998.jpg');
 }
 
 .watercolor-2{
@@ -83,5 +83,5 @@ a {
 }
 
 .watercolor-3{
-  background-image: url('https://previews.123rf.com/images/nubephoto/nubephoto1801/nubephoto180100019/93706255-soft-blue-watercolor-texture-background-hand-painted.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/04/08/19/51/watercolor-1316867_960_720.jpg');
 }
