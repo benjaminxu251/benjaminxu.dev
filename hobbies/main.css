@@ -46,7 +46,7 @@ a {
   border-width: 3px;
   background-color: white;
   text-align: center;
-  display: flex;
+  display:inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   font-family: 'Lato', sans-serif;
