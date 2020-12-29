@@ -62,6 +62,7 @@ a {
 nav {
   background-color: #FFF;
   bottom: 10px;
+  position: absolute;
 }
 
 nav li {
