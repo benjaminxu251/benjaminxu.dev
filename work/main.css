@@ -54,8 +54,10 @@ a {
 
 .icon-title{
   font-size: 26px;
+  width: 250px;
 }
 
 .icon-description{
   font-size: 18px;
+  width: 250px;
 }
