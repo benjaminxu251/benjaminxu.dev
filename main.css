@@ -61,7 +61,8 @@ a {
 
 nav {
   background-color: #FFF;
-  bottom: 10px;
+  bottom: 5px;
+  right: 0px;
   position: absolute;
 }
 
