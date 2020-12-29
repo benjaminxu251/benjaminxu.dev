@@ -53,3 +53,7 @@ a {
 .icon-description{
   font-size: 18px;
 }
+
+.navbar{
+  bottom: 10px;
+}
