@@ -4,6 +4,8 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  min-height: 300px;
+  min-width: 250px;
 }
 
 body {
