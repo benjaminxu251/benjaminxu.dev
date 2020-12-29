@@ -34,6 +34,11 @@ a {
   font-size: 28px;
 }
 
+.image{
+  width: 250px; 
+  height: 250px;
+}
+
 .gallery {
   margin-top: 20px;
   display: flex;
