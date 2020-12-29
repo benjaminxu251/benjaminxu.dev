@@ -46,15 +46,6 @@ a {
   justify-content: center;
 }
 
-.item{
-  position: relative;
-  text-align: center;
-  width: 300px;
-  height: 500px;
-  margin: 40px;
-  text-align: center;
-}
-
 .icon-title{
   font-size: 26px;
 }
