@@ -1,2 +1,2 @@
-# benjaminxu251.me
+# benjaminxu.dev
 personal site
