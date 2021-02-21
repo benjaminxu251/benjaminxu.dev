@@ -1,3 +1,8 @@
+import skip from './../images/about images/skip.jpg';
+import breathe from './../images/about images/breathe.jpg';
+import loops from './../images/about images/loops.jpg';
+import agontfHi from './../images/about images/agontfHi.jpg';
+
 export default function About() {
     return (
         <div>
@@ -31,10 +36,10 @@ export default function About() {
                     </p>
                 </div>
                 <div class="gallery">
-                    <div class="image"><img src="about images/skip.jpg" height="250" length="250" /></div>
-                    <div class="image"><img src="about images/breathe.jpg" height="250" length="250" /></div>
-                    <div class="image"><img src="about images/loops.jpg" height="250" length="250" /></div>
-                    <div class="image"><img src="about images/agontfHi.jpg" height="250" length="250" /></div>
+                    <div class="image"><img src={skip} height="250" length="250" /></div>
+                    <div class="image"><img src={breathe} height="250" length="250" /></div>
+                    <div class="image"><img src={loops} height="250" length="250" /></div>
+                    <div class="image"><img src={agontfHi} height="250" length="250" /></div>
                 </div>
 
             </body>

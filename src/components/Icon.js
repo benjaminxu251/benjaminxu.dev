@@ -1,5 +1,4 @@
 import React from 'react';
-import './../css/components/Icon.css';
 import PropTypes from 'prop-types';
 
 Icon.propTypes = {
@@ -14,10 +13,16 @@ export default function Icon({
     text,
 }){
     return(
-        <div className = "icon">
+        <div class="index-icon">
             <a href={link}>
-                <img src={image} className="image"/>
-                {text}
+                <img 
+                    src={image} 
+                    width="200" 
+                    height="200"
+                />
+                <div class="icon-text">
+                    {text}
+                </div>
             </a>
         </div>
     );

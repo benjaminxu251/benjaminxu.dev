@@ -1,3 +1,4 @@
+import './../css/Index.css'
 import Icon from './../components/Icon';
 
 import beacon from './../images/homepage images/beacon.jpg'
@@ -9,7 +10,9 @@ import shimzar from './../images/homepage images/shimzar.jpg';
 
 export default function Index(){
     return(
-        <div>
+        <div class="index-body">
+            <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'/>
+            <link rel="stylesheet" type="text/css" href="main.css"/>
             <header>
                 <a href="./../"><h1 class="page-title">Benjamin Xu</h1></a>
                 <p class="page-description">Hey welcome</p>

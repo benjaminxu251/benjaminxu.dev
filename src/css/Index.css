@@ -1,0 +1,265 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+  min-height: 300px;
+  min-width: 250px;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.index-body, .work-body {
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+.now-body {
+  color: white;
+  background-image: url('https://i.pinimg.com/originals/f4/bc/91/f4bc914e8b87ef88d49d895c9aadd5a8.jpg');
+}
+
+.about-body {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+}
+
+.project-body {
+  background-image: url('https://ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg');
+}
+
+.hobbies-body {
+  background-image: url("https://i.imgur.com/FdYMi9J.jpg");
+}
+
+.contact-body {
+  background-image: url('https://www.onlygfx.com/wp-content/uploads/2018/08/9-watercolor-holographic-effect-background-1.jpg');
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 27px;
+}
+
+.page-description {
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.gallery {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image{
+  width: 250px; 
+  height: 250px;
+}
+
+.item{
+  width: 300px;
+  height: 560px;
+  text-align: left;
+}
+
+.icon-title{
+  font-size: 26px;
+  width: 250px;
+}
+
+.icon-description{
+  font-size: 18px;
+  width: 250px;
+}
+
+.description{
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 50px;
+  font-size: 22px;
+}
+  
+.images{
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.description{
+  font-weight: 350;
+  margin: 10px 50px;
+  font-size: 20px;
+}
+
+.image{
+  position: relative;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+}
+
+.item{
+  position: relative;
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  margin: 40px;
+  text-align: center;
+}
+
+.item{
+  width: 240px;
+  height: 150px;
+  padding: 10px;
+  margin: 30px 30px 60px 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  background-image: url('https://image.freepik.com/free-vector/watercolor-texture-with-soft-colors_1020-998.jpg');
+}
+
+.item-title{
+  font-size: 20px;
+}
+
+.item-description{
+  font-size: 16px;
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category{
+  text-align: center;
+  display:inline;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+  padding: 16px;
+  border-color: rgb(140, 140, 230);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.category-title{
+  font-size: 24px;
+}
+
+.category-image{
+  text-align: center;
+}
+
+.category-description{
+  font-size: 18px;
+}
+
+.space-1{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.watercolor-1{
+  background-image: url('https://previews.123rf.com/images/margosoleil/margosoleil1611/margosoleil161100034/67164864-watercolor-texture-transparent-light-blue-watercolor-abstract-background-spot-blur-fill.jpg');
+}
+
+.watercolor-2{
+  background-image: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1657736/910/607/m1/fpnw/wm0/a-11-.png?1473885956&s=8748e3e712c8461bf3cd92fe42483bf3');
+}
+
+.watercolor-3{
+  background-image: url('https://i.pinimg.com/originals/12/ae/e3/12aee3942ed92126dcec138a65e86564.jpg');
+}
+
+.images{
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item{
+  text-align: center;
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+}
+
+.index-icon{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  font-size: 20px;
+}
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+  bottom: 5px;
+  right: 0px;
+  position: absolute;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+ float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+}
+
+.contact-btn a:active {
+  top: 2px;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
