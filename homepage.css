@@ -4,6 +4,8 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  min-height: 300px;
+  min-width: 250px;
 }
 
 body {
@@ -34,30 +36,52 @@ a {
   font-size: 28px;
 }
 
-.image{
-  width: 250px; 
-  height: 250px;
-}
-
-.item{
-  width: 300px;
-  height: 560px;
-  text-align: left;
-}
-
 .gallery {
   margin-top: 20px;
+  margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.icon-title{
-  font-size: 26px;
-  width: 250px;
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+  bottom: 5px;
+  right: 0px;
+  position: absolute;
 }
 
-.icon-description{
-  font-size: 18px;
-  width: 250px;
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+ float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+}
+
+.contact-btn a:active {
+  top: 2px;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
 }

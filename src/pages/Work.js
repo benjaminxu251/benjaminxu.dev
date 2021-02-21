@@ -1,0 +1,81 @@
+export default function Work() {
+    return (
+        <div>
+            <head>
+                <title>Work</title>
+                <meta charset="utf-8" />
+                <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css' />
+                <link rel="stylesheet" type="text/css" href="main.css" />
+            </head>
+
+            <body>
+                <header>
+                    <a href="./../">
+                        <h1 class="page-title">Benjamin Xu</h1>
+                    </a>
+                    <p class="page-description">Work</p>
+                </header>
+                <div class="gallery">
+                    <div class="item">
+                        <img class="image" src="work images/Amazon.jpg" />
+                        <h1 class="icon-title">
+                            <p>
+                                SDE Intern<br />
+                                Summer 2021
+                            </p>
+                        </h1>
+                        <h2 class="icon-description">Incoming SDE Intern at a Bay Area Amazon location!</h2>
+                    </div>
+                    <div class="item">
+                        <img class="image" src="work images/Fidelity.png" />
+                        <h1 class="icon-title">
+                            <p>
+                                Leap SDE Intern<br />
+                                Jun 2020 ~ Aug 2020
+                            </p>
+                        </h1>
+                        <h2 class="icon-description">
+                            SDE Intern at Fidelity Investments. Worked on automating squad tasks and developing an Outlook add-on for company associates.
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <img class="image" src="work images/UMass Crest.png" />
+                        <h1 class="icon-title">
+                            <p>
+                                Undergraduate Course Assistant<br />
+                                Jan 2020 ~ Dec 2020
+                            </p>
+                        </h1>
+                        <h2 class="icon-description">
+                            UCA for Introduction to Algorithms (Fall 2020), Using Data Structures (Spring 2020)
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <img class="image" src="work images/Sharon Crest.jpg" />
+                        <h1 class="icon-title">
+                            <p>
+                                Sailing Supervisor, Instructor<br />
+                                Aug 2014 ~ Aug 2019
+                            </p>
+                        </h1>
+                        <h2 class="icon-description">
+                            Supervisor and instructor for the sailing programs at the Sharon Recreation Department
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <img class="image" src="work images/NCLS Crest.png" />
+                        <h1 class="icon-title">
+                            <p>
+                                Teacher Assistant<br />
+                                Sep 2015 ~ May 2017
+                            </p>
+                        </h1>
+                        <h2 class="icon-description">
+                            TA at the Newton Chinese Language School
+                        </h2>
+                    </div>
+                </div>
+            </body>
+        </div>
+    )
+}

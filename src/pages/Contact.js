@@ -1,0 +1,25 @@
+export default function Contact() {
+    return (
+        <div>
+            <head>
+                <title>Contact</title>
+                <meta charset="utf-8" />
+                <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css' />
+                <link rel="stylesheet" type="text/css" href="main.css" />
+            </head>
+            <body>
+                <header>
+                    <a href="./../"><h1 class="page-title">Benjamin Xu</h1></a>
+                    <p class="page-description">Contact</p>
+                </header>
+                <div class="images">
+                    <img src="./../images/contact images/waldo.jpg" />
+                </div>
+                <div class="description">
+                    1-339-206-1527
+                    <br/>benjaminxu251@gmail.com
+                </div>
+            </body>
+        </div>
+    )
+}
