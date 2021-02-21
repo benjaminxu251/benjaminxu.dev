@@ -1,5 +1,5 @@
 import React from 'react';
-import './Icon.css';
+import './../css/components/Icon.css';
 import PropTypes from 'prop-types';
 
 Icon.propTypes = {

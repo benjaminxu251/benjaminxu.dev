@@ -1,4 +1,4 @@
-import Icon from './../Icon';
+import Icon from './../components/Icon';
 
 import beacon from './../images/homepage images/beacon.jpg'
 import birb from './../images/homepage images/birb.jpg';
@@ -49,10 +49,10 @@ export default function Index(){
             </div>
 
             <nav>
-                <a href="https://www.artstation.com/shant"/><div class="contact-btn">Icon Art</div>
-                <a href="https://github.com/benjaminxu251"/><div class="contact-btn">Github</div>
-                <a href="https://www.linkedin.com/in/bxu/"/><div class="contact-btn">LinkedIn</div>
-                <a href="mailto:benjaminxu251@gmail.com"/><div class="contact-btn">Email</div>
+                <a href="https://www.artstation.com/shant"><div class="contact-btn">Icon Art</div></a>
+                <a href="https://github.com/benjaminxu251"><div class="contact-btn">Github</div></a>
+                <a href="https://www.linkedin.com/in/bxu/"><div class="contact-btn">LinkedIn</div></a>
+                <a href="mailto:benjaminxu251@gmail.com"><div class="contact-btn">Email</div></a>
                 <a href="tel:1 (339) 206-1527"/><div class="contact-btn">Phone</div>
             </nav>
         </div>
