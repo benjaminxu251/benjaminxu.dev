@@ -11,7 +11,7 @@ export default function Index(){
     return(
         <div>
             <header>
-                <a href="..dev/"><h1 class="page-title">Benjamin Xu</h1></a>
+                <a href="./../"><h1 class="page-title">Benjamin Xu</h1></a>
                 <p class="page-description">Hey welcome</p>
             </header>
 
