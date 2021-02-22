@@ -1,81 +1,52 @@
+import Header from './../components/Header';
+import WorkItem from './../components/WorkItem';
+
+import amazon from './../images/work images/Amazon.jpg';
+import fidelity from './../images/work images/Fidelity.png';
+import umass from './../images/work images/UMass Crest.png';
+import sharon_rec from './../images/work images/Sharon Crest.jpg';
+import ncls from './../images/work images/NCLS Crest.png';
+
 export default function Work() {
     return (
-        <div>
-            <head>
-                <title>Work</title>
-                <meta charset="utf-8" />
-                <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css' />
-                <link rel="stylesheet" type="text/css" href="main.css" />
-            </head>
+        <body class="work-body">
+            <Header
+                link="./../"
+                text="Work"
+            />
 
-            <body>
-                <header>
-                    <a href="./../">
-                        <h1 class="page-title">Benjamin Xu</h1>
-                    </a>
-                    <p class="page-description">Work</p>
-                </header>
-                <div class="gallery">
-                    <div class="item">
-                        <img class="image" src="work images/Amazon.jpg" />
-                        <h1 class="icon-title">
-                            <p>
-                                SDE Intern<br />
-                                Summer 2021
-                            </p>
-                        </h1>
-                        <h2 class="icon-description">Incoming SDE Intern at a Bay Area Amazon location!</h2>
-                    </div>
-                    <div class="item">
-                        <img class="image" src="work images/Fidelity.png" />
-                        <h1 class="icon-title">
-                            <p>
-                                Leap SDE Intern<br />
-                                Jun 2020 ~ Aug 2020
-                            </p>
-                        </h1>
-                        <h2 class="icon-description">
-                            SDE Intern at Fidelity Investments. Worked on automating squad tasks and developing an Outlook add-on for company associates.
-                        </h2>
-                    </div>
-                    <div class="item">
-                        <img class="image" src="work images/UMass Crest.png" />
-                        <h1 class="icon-title">
-                            <p>
-                                Undergraduate Course Assistant<br />
-                                Jan 2020 ~ Dec 2020
-                            </p>
-                        </h1>
-                        <h2 class="icon-description">
-                            UCA for Introduction to Algorithms (Fall 2020), Using Data Structures (Spring 2020)
-                        </h2>
-                    </div>
-                    <div class="item">
-                        <img class="image" src="work images/Sharon Crest.jpg" />
-                        <h1 class="icon-title">
-                            <p>
-                                Sailing Supervisor, Instructor<br />
-                                Aug 2014 ~ Aug 2019
-                            </p>
-                        </h1>
-                        <h2 class="icon-description">
-                            Supervisor and instructor for the sailing programs at the Sharon Recreation Department
-                        </h2>
-                    </div>
-                    <div class="item">
-                        <img class="image" src="work images/NCLS Crest.png" />
-                        <h1 class="icon-title">
-                            <p>
-                                Teacher Assistant<br />
-                                Sep 2015 ~ May 2017
-                            </p>
-                        </h1>
-                        <h2 class="icon-description">
-                            TA at the Newton Chinese Language School
-                        </h2>
-                    </div>
-                </div>
-            </body>
-        </div>
+            <div class="gallery">
+                <WorkItem 
+                    title="SDE Intern"
+                    duration="Summer 2021"
+                    description="Incoming SDE Intern at the East Palo Alto location!"
+                    image={amazon}
+                />
+                <WorkItem 
+                    title="LEAP Full-stack Intern"
+                    duration="Jun 2020 - Aug 2020"
+                    description="Full-stack software engineering intern at Fidelity Investments. Worked on automating squad tasks and developing an Outlook add-on for company associates."
+                    image={fidelity}
+                />
+                <WorkItem 
+                    title="Undergraduate Course Assistant"
+                    duration="Jan 2020 - Present"
+                    description="UCA for Algorithms (Fall 2020), Data Structures (Spring 2020), and Statistics (Spring 2021)"
+                    image={umass}
+                />
+                <WorkItem 
+                    title="Sailing Supervisor, Instructor"
+                    duration="Aug 2014 - Aug 2019"
+                    description="Supervisor and instructor for the sailing programs at the Sharon Recreation Department"
+                    image={sharon_rec}
+                />
+                <WorkItem 
+                    title="Teacher Assistant"
+                    duration="Sep 2015 - May 2017"
+                    description="TA at the Newton Chinese Language School for middle school Mathematics and Mandarin"
+                    image={ncls}
+                />
+            </div>
+        </body>
     )
 }

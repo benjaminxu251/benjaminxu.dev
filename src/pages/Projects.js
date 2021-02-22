@@ -1,34 +1,15 @@
+import Header from './../components/Header';
+
 export default function Projects() {
     return (
-        <div>
-            <title>Projects</title>
-            <meta charset="utf-8" />
-            <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css' />
-            <link rel="stylesheet" type="text/css" href="main.css" />
-            <header>
-                <a href="./../"><div class="page-title">Benjamin Xu</div></a>
-                <p class="page-description">Projects</p>
-            </header>
-            <div class="image">
-                <img src="https://media.comicbook.com/2017/11/does-not-compute-1061433.png"/>
+        <body class="projects-body">
+            <Header
+                link="./../"
+                text="Projects"
+            />
+            <div class="gallery">
+
             </div>
-                <div class="gallery">
-                    <div class="item">
-                        <h1 class="item-title">UMass ACM Website</h1>
-                        <h2 class="item-description">In the process of overhauling the current UMass ACM website</h2>
-                    </div>
-                    <div class="item">
-                        <h1 class="item-title">SieroKarte Bot</h1>
-                        <h2 class="item-description">Discord bot written in Python that provides comprehensive advice to new players</h2></div>
-                    <div class="item">
-                        <h1 class="item-title">Personal Website</h1>
-                        <h2 class="item-description">It's right here</h2>
-                    </div>
-                    <div class="item">
-                        <h1 class="item-title">Dynamic Filter</h1>
-                        <h2 class="item-description">A Javascript-based filter for large restaurant databases</h2>
-                    </div>
-                </div>
-            </div>
+        </body>
     )
 }

@@ -13,12 +13,11 @@ export default function Icon({
     text,
 }){
     return(
-        <div class="index-icon">
+        <div class="icon">
             <a href={link}>
                 <img 
+                    class="icon-image"
                     src={image} 
-                    width="200" 
-                    height="200"
                 />
                 <div class="icon-text">
                     {text}

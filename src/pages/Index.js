@@ -1,5 +1,8 @@
 import './../css/Index.css'
+
 import Icon from './../components/Icon';
+import Navbar from './../components/Navbar';
+import Header from './../components/Header';
 
 import beacon from './../images/homepage images/beacon.jpg'
 import birb from './../images/homepage images/birb.jpg';
@@ -11,12 +14,10 @@ import shimzar from './../images/homepage images/shimzar.jpg';
 export default function Index(){
     return(
         <div class="index-body">
-            <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'/>
-            <link rel="stylesheet" type="text/css" href="main.css"/>
-            <header>
-                <a href="./../"><h1 class="page-title">Benjamin Xu</h1></a>
-                <p class="page-description">Hey welcome</p>
-            </header>
+            <Header
+                link="./"
+                text="Hey welcome"
+            />
 
             <div class="gallery">
                 <Icon
@@ -50,14 +51,7 @@ export default function Index(){
                     text="Now"
                 />
             </div>
-
-            <nav>
-                <a href="https://www.artstation.com/shant"><div class="contact-btn">Icon Art</div></a>
-                <a href="https://github.com/benjaminxu251"><div class="contact-btn">Github</div></a>
-                <a href="https://www.linkedin.com/in/bxu/"><div class="contact-btn">LinkedIn</div></a>
-                <a href="mailto:benjaminxu251@gmail.com"><div class="contact-btn">Email</div></a>
-                <a href="tel:1 (339) 206-1527"/><div class="contact-btn">Phone</div>
-            </nav>
+            <Navbar/>
         </div>
     )
 }
